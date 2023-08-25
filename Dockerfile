@@ -1,4 +1,4 @@
-FROM golang:alpine AS builder
+FROM golang:alpine3.18 AS builder
 
 # Set necessary environmet variables needed for our image
 ENV GO111MODULE=on \
